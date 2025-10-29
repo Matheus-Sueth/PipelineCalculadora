@@ -1,3 +1,8 @@
+"""Projeto Calculadora.
+
+Este módulo inicializa e executa a aplicação
+"""
+
 print("BEM VINDO AO PROJETO CALCULADORA\n")
 while True:
     primeiro_numero = int(input("Digite o primeiro número:"))
