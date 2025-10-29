@@ -3,7 +3,11 @@ while True:
     primeiro_numero = int(input("Digite o primeiro número:"))
     segundo_numero = int(input("Digite o segundo número:"))
 
-    opcao = input("\n\nQual opção você deseja:\n1 - Somar\n2 - Subtrair\n3 - Multiplicar\n0 - Sair\nOpção: ")
+    opcao = input("\n\nQual opção você deseja:\n" \
+    "1 - Somar\n" \
+    "2 - Subtrair\n" \
+    "3 - Multiplicar\n" \
+    "0 - Sair\nOpção: ")
 
     if opcao == "1":
         resultado = primeiro_numero + segundo_numero
