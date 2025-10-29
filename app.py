@@ -2,6 +2,7 @@
 
 Este módulo inicializa e executa a aplicação
 """
+import functions.operacoes as func_operations
 
 print("BEM VINDO AO PROJETO CALCULADORA\n")
 while True:
@@ -15,13 +16,13 @@ while True:
     "0 - Sair\nOpção: ")
 
     if opcao == "1":
-        resultado = primeiro_numero + segundo_numero
+        resultado = func_operations.somar(primeiro_numero, segundo_numero)
         print(f"Resultado: {resultado}")
     elif opcao == "2":
-        resultado = primeiro_numero - segundo_numero
+        resultado = func_operations.subtrair(primeiro_numero, segundo_numero)
         print(f"Resultado: {resultado}")
     elif opcao == "3":
-        resultado = primeiro_numero * segundo_numero
+        resultado = func_operations.multiplicar(primeiro_numero, segundo_numero)
         print(f"Resultado: {resultado}")
     elif opcao == "0":
         print("\nAté logo")
